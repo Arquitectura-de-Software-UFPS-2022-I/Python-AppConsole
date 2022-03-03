@@ -168,11 +168,7 @@ def list_all_my_pending_signature_requests():
 
 
 def list_all_signature_history():
-    my_request_signature = services.get_list_signature_request_user_by_user_id_and_signed(
-        user.id, True)
     print("My signature history: ")
-    for my_request_signature in my_request_signature:
-        print("{} - {} - {}".format(my_request_signature.id, my_request_signature.signature_request.subject, my_request_signature.signature_date))
 
 
 def main():
