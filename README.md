@@ -37,6 +37,14 @@ para Windows:
 [DocuSing](https://mega.nz/file/SR5F3IAY#7VV55Z_2kGAtVWcE-mj7TtEbbXEql7AWDZZzwDLIh4E)
 
 
+para Linux:
+
+```bash
+    $ sudo https://mega.nz/file/SR5F3IAY#7VV55Z_2kGAtVWcE-mj7TtEbbXEql7AWDZZzwDLIh4E
+    $ sudo chmod +x main.exe
+```
+
+
 ## Menu Opciones
 En la siguiente tabla se describe el menu de operaciones establecido en la aplicacion:
 
@@ -53,6 +61,7 @@ Numero | Opcion | Descripcion
 8 | [List all of my pending signature requests](#list-pending-signature-requests) |
 9 | [Signature history](signature-history) |
 10 | [Logout](#logout) |
+
 
 ### Upload a signature
 ### Upload pdf file	
