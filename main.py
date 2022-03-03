@@ -76,6 +76,42 @@ def upload_pdf():
         print("Invalid path")
 
 
+def request_signature():
+    global user
+    list_request_of_user = services.get_request_signature_by_user(user.id)
+    for request in list_request_of_user:
+        print("{} - {}".format(request.id, request.subject))
+    request_id = input("Select a request to request a signature : ")
+    users = services.list_users()
+    users_selected = []
+    stop_selection = False
+    dict_users = {}
+    while not stop_selection :
+        
+        for iserf in users:
+            print("{} - {}".format(iserf.id, iserf.name))
+           
+        ans = input("Select a user to request a signature or enter '0' to stop : ")
+       
+        
+        if ans == "0":
+            stop_selection = True
+        else:
+            num_page = input("Please select the page for the signature : ")
+            pos_x = input("Please select the x position for the signature : ")
+            pos_y = input("Please select the y position for the signature : ")
+            for user_sl in users :
+                if user_sl.id == int(ans):
+                    dict_users[int(ans)] = (int(num_page), int(pos_x), int(pos_y))
+                    users_selected.append(user_sl)
+
+        users = [userS for userS in users if userS.id != int(ans)]
+    
+    for user_selected in users_selected:
+        services.register_request_signature_user(request.id, user_selected.id, dict_users[user_selected.id][1], dict_users[user_selected.id][2], dict_users[user_selected.id][0])
+    print("Request sent successfully!")
+    
+
 
 def main():
     global user
@@ -85,7 +121,8 @@ def main():
         upload_signature()
     elif ans == "2":
         upload_pdf()
-    
+    elif ans == "3":
+        request_signature()
     elif ans == "0":
         print("Logging out...")
         user = None
