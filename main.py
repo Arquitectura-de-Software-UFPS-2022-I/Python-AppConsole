@@ -44,11 +44,11 @@ def upload_signature():
     global user
     path_signature = input("Please enter the path of the signature : ")
     if path.exists(path_signature):
-        ext = path_signature.split(".")[-1] .lower()
+        ext = path_signature.split(".")[-1].lower()
         if ext == "png" or ext == "jpg":
             image = open(path_signature, "rb")
             if services.validate_signature(path_signature):
-                services.insert_signature(user.id,image.name,image.read())
+                services.insert_signature(user.id, os.path.basename(path_signature),image.read())
                 print("Signature uploaded successfully!")
             else :
                 print("Invalid signature")
@@ -58,12 +58,34 @@ def upload_signature():
         print("Invalid path")
 
 
+
+def upload_pdf():
+    global user
+    path_pdf = input("Please enter the path of the pdf : ")
+    if path.exists(path_pdf):
+        ext = path_pdf.split(".")[-1].lower()
+        if ext == "pdf" :
+            pdf = open(path_pdf, "rb")
+            subject = input("Please enter the subject : ")
+            services.register_request_signature(user.id, os.path.basename(path_pdf),pdf.read(),subject)
+            print("Request sent successfully!")
+
+        else:
+            print("Invalid file extension")
+    else:
+        print("Invalid path")
+
+
+
 def main():
     global user
     show_options()
     ans = input("Please enter your option: ")
     if ans == "1":
         upload_signature()
+    elif ans == "2":
+        upload_pdf()
+    
     elif ans == "0":
         print("Logging out...")
         user = None
@@ -72,7 +94,7 @@ def main():
         exit()
     if user != None:
         main()
-        
+
 
 def start_system():
     
