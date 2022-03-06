@@ -49,7 +49,7 @@ def upload_signature():
             image = open(path_signature, "rb")
             if services.validate_signature(path_signature):
                 services.insert_signature(
-                    user.id, os.path.basename(path_signature), image.read())
+                    user.id, os.path.basename(path_signature), path_signature)
                 print("Signature uploaded successfully!")
             else:
                 print("Invalid signature")
@@ -68,7 +68,7 @@ def upload_pdf():
             pdf = open(path_pdf, "rb")
             subject = input("Please enter the subject : ")
             services.register_request_signature(
-                user.id, os.path.basename(path_pdf), pdf.read(), subject)
+                user.id, os.path.basename(path_pdf), path_pdf, subject)
             print("Request sent successfully!")
         else:
             print("Invalid file extension")
