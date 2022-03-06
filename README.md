@@ -3,18 +3,26 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Descripción Y Contexto
+
 Es una aplicación open-source que permita firmar un documento PDF. Consiste en insertar la imagen de la firma manuscrita de una o varias personas.
 
 ## Requerimientos
-Numero |Descripcion
-:--: | --
-1 | Registrarse en la aplicación para poder usarla.
-2 | Registrar una firma, lo que consiste en subir una imagen. Es deseable una funcionalidad inteligente que verifique si la imagen corresponde a una firma.
-3 | Subir un documento PDF y solicitar la firma de usuarios registrados en la plataforma. La solicitud es notificada al correo electrónico y en la aplicación debe existir una sección de solicitudes pendientes por firma y solicitudes firmadas.
-4 | Firmar un documento PDF para el cual se ha solicitado la firma. La aplicación debe permitir visualizar el PDF, insertar la firma y guardarlo.
-5 | Debe quedar el registro histórico de las firmas.
 
-## Requisitos de la Aplicación
+Numero | Descripcion |
+:--: | -- |
+1 | Registrarse en la aplicación para poder usarla. |
+2 | Registrar una firma, lo que consiste en subir una imagen. Es deseable una funcionalidad inteligente que verifique si la imagen corresponde a una firma. |
+3 | Subir un documento PDF y solicitar la firma de usuarios registrados en la plataforma. La solicitud es notificada al correo electrónico y en la aplicación debe existir una sección de solicitudes pendientes por firma y solicitudes firmadas. |
+4 | Firmar un documento PDF para el cual se ha solicitado la firma. La aplicación debe permitir visualizar el PDF, insertar la firma y guardarlo. |
+5 | Debe quedar el registro histórico de las firmas. |
+
+## Comenzando 🚀
+
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+## Requisitos de la Aplicación 📋
 
 Primero, instalar Python 3.6.5 o superior.
 
@@ -30,7 +38,7 @@ para Linux:
 ```
 
 
-## Instalación de la Aplicación
+## Instalación de la Aplicación 🔧
 
 para Windows:
 
@@ -46,6 +54,7 @@ para Linux:
 
 
 ## Menu Opciones
+
 En la siguiente tabla se describe el menu de operaciones establecido en la aplicacion:
 
 
@@ -117,7 +126,11 @@ Número | Opción | Descripción
 ### <a id="logout">Logout</a>
 
 
-## Autor(es)
+## Construido con 🛠️
+
+* [Python](https://docs.python.org/3/) - Lenguaje de programación interpretado
+
+## Autores ✒️
 
 **David Fernando Rojas Sáchica - Desarrollador**
 
@@ -135,12 +148,19 @@ Número | Opción | Descripción
 
 -   <https://github.com/DuvanLabrador27>
 
-## Institución Académica
+## Institución Académica 🏛️
 
 **[Programa de Ingeniería de Sistemas]** de la **[Universidad Francisco de Paula Santander]**
 
 [Programa de Ingeniería de Sistemas]: https://ingsistemas.cloud.ufps.edu.co/
 [Universidad Francisco de Paula Santander]: https://ww2.ufps.edu.co/
 
-## Licencia
+## Licencia 📄
+
 El código fuente se publica bajo la [MIT License](https://github.com/Arquitectura-de-Software-UFPS-2022-I/Python-AppConsole/blob/develop-sjcr/LICENSE).
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
