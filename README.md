@@ -34,13 +34,13 @@ para Linux:
 
 para Windows:
 
-[DocuSing](https://mega.nz/file/SR5F3IAY#7VV55Z_2kGAtVWcE-mj7TtEbbXEql7AWDZZzwDLIh4E)
+[DocuSing](https://mega.nz/file/2NxjzA7A#EVdtx4Ug7LKg9T0qXQROs91713reVr3mkFGRlkSHhb0)
 
 
 para Linux:
 
 ```bash
-    $ sudo https://mega.nz/file/SR5F3IAY#7VV55Z_2kGAtVWcE-mj7TtEbbXEql7AWDZZzwDLIh4E
+    $ sudo https://mega.nz/file/2NxjzA7A#EVdtx4Ug7LKg9T0qXQROs91713reVr3mkFGRlkSHhb0
     $ sudo chmod +x main.exe
 ```
 
@@ -53,14 +53,14 @@ Número | Opción | Descripción
 :--: | :--: | -- |
 1 | [Upload a signature](#upload-signature) | Subir una firma. |
 2 | [Upload pdf file](#upload-pdf-file) | Subir un documento PDF. |
-3 | [Request a signature](#request-signature) | Solicitar una firma |
-4 | [Sign a document](#sign-document) | Firmar un documento |
-5 | [Generate pdf file](#generate-pdf-file) | Generar un documento PDF |
-6 | [List all signature requests approved](#list-signature-requests-approved) | Listar todas las solicitudes de firma aprobadas |
-7 | [List all signature requests pending](#list-signature-requests-pending) | Listar todas las solicitudes de firma pendientes |
-8 | [List all of my pending signature requests](#list-pending-signature-requests) | Listar todas mis solicitudes de firma pendientes |
-9 | [Signature history](#signature-history) | Historial de firmas |
-10 | [Logout](#logout) | Cerrar sesión |
+3 | [Request a signature](#request-signature) | Solicitar una firma. |
+4 | [Sign a document](#sign-document) | Firmar un documento. |
+5 | [Generate pdf file](#generate-pdf-file) | Generar un documento PDF. |
+6 | [List all signature requests approved](#list-signature-requests-approved) | Listar todas las solicitudes de firma aprobadas. |
+7 | [List all signature requests pending](#list-signature-requests-pending) | Listar todas las solicitudes de firma pendientes. |
+8 | [List all of my pending signature requests](#list-pending-signature-requests) | Listar todas mis solicitudes de firma pendientes. |
+9 | [Signature history](#signature-history) | Historial de firmas. |
+10 | [Logout](#logout) | Cerrar sesión. |
 
 
 ### <a id="upload-signature">Upload a signature</a>
