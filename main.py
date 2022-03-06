@@ -217,6 +217,8 @@ def start_system():
 
     elif ans == "n":
         register_user()
+        while user == None:
+            request_login()
 
     else:
         print("Invalid option")
