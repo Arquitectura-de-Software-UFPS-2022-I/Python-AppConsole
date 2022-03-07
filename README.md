@@ -1,4 +1,4 @@
-# Python-AppConsole
+# Python-AppConsole 💻
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -6,9 +6,9 @@
 
 Es una aplicación open-source que permita firmar un documento PDF. Consiste en insertar la imagen de la firma manuscrita de una o varias personas.
 
-## Requerimientos
+## Requerimientos 📑
 
-Numero | Descripcion |
+Número | Descripción |
 :--: | -- |
 1 | Registrarse en la aplicación para poder usarla. |
 2 | Registrar una firma, lo que consiste en subir una imagen. Es deseable una funcionalidad inteligente que verifique si la imagen corresponde a una firma. |
@@ -19,8 +19,6 @@ Numero | Descripcion |
 ## Comenzando 🚀
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
-
-Mira **Deployment** para conocer como desplegar el proyecto.
 
 ## Requisitos de la Aplicación 📋
 
@@ -36,27 +34,51 @@ para Linux:
 ```bash
     $ sudo apt-get install python3.6
 ```
+## Instalación 🔧
 
+Primero, clone el repositorio en su máquina local:
+```bash
+git clone https://github.com/Arquitectura-de-Software-UFPS-2022-I/Python-AppConsole.git
+```
 
-## Instalación de la Aplicación 🔧
+Después de clonar el repositorio, desea crear un entorno virtual, por lo que tiene una instalación de python limpia.
+Puedes hacer esto ejecutando el comando:
+```
+python -m venv venv
+```
+
+Después de esto, es necesario activar el entorno virtual, puede obtener más información al respecto [Aqui](https://docs.python.org/3/tutorial/venv.html)
+```
+venv\Scripts\activate
+```
+
+Luego instalar todas las dependencias requeridas ejecutando el comando:
+```
+pip install -r requirements.txt
+```
+
+### Ejecutar el proyecto localmente
+
+Finalmente, ejecute el servidor de desarrollo:
+```bash
+python main.py
+```
+
+## Demo de la Aplicación 📦
 
 para Windows:
 
 [DocuSing](https://mega.nz/file/2NxjzA7A#EVdtx4Ug7LKg9T0qXQROs91713reVr3mkFGRlkSHhb0)
 
-
 para Linux:
-
 ```bash
     $ sudo https://mega.nz/file/2NxjzA7A#EVdtx4Ug7LKg9T0qXQROs91713reVr3mkFGRlkSHhb0
     $ sudo chmod +x main.exe
 ```
 
-
 ## Menu Opciones
 
 En la siguiente tabla se describe el menu de operaciones establecido en la aplicacion:
-
 
 Número | Opción | Descripción
 :--: | :--: | -- |
@@ -71,59 +93,35 @@ Número | Opción | Descripción
 9 | [Signature history](#signature-history) | Historial de firmas. |
 10 | [Logout](#logout) | Cerrar sesión. |
 
-
 ### <a id="upload-signature">Upload a signature</a>
-
-
-
 
 
 ### <a id="upload-pdf-file">Upload pdf file</a>
 
 
-
-
-
 ### <a id="request-signature">Request a signature</a>
-
-
 
 
 ### <a id="sign-document">Sign a document</a>
 
 
-
-
 ### <a id="generate-pdf-file">Generate pdf file</a>
-
-
-
 
 
 ### <a id="list-signature-requests-approved">List all signature requests approved</a>
 
 
-
-
-
 ### <a id="list-signature-requests-pending">List all signature requests pending</a>
-
-
 
 
 ### <a id="list-pending-signature-requests">List all of my pending signature requests</a>
 
 
-
-
-
 ### <a id="signature-history">Signature history</a>
 
 
-
-
-
 ### <a id="logout">Logout</a>
+
 
 
 ## Construido con 🛠️
