@@ -1,4 +1,5 @@
 from signaturelib import services
+import getpass
 import os.path
 from os import path
 
@@ -9,7 +10,7 @@ def request_login():
     global user
     print("Welcome back!")
     username = input("Please enter your username: ")
-    password = input("Please enter your password: ")
+    password = getpass.getpass(prompt="Please enter your password: ", stream=None) 
     user = services.get_user_login(username, password)
 
 
