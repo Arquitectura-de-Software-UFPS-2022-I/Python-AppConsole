@@ -68,11 +68,11 @@ python main.py
 
 para Windows:
 
-[DocuSing](https://mega.nz/file/2NxjzA7A#EVdtx4Ug7LKg9T0qXQROs91713reVr3mkFGRlkSHhb0)
+[DocuSing](https://mega.nz/file/fRRRCYQK#HrmyYIgHk2jUnoH8ful0_JF4IxvEWFQpSGb6Tx6iifo)
 
 para Linux:
 ```bash
-    $ sudo https://mega.nz/file/2NxjzA7A#EVdtx4Ug7LKg9T0qXQROs91713reVr3mkFGRlkSHhb0
+    $ sudo https://mega.nz/file/fRRRCYQK#HrmyYIgHk2jUnoH8ful0_JF4IxvEWFQpSGb6Tx6iifo
     $ sudo chmod +x main.exe
 ```
 

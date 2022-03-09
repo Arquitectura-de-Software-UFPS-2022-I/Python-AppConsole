@@ -10,3 +10,7 @@
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+
+# Django
+__pycache__
