@@ -28,6 +28,9 @@ print("Welcome to the Signature Program UFPS")
 
 
 def show_options():
+    print("##########################")
+    print("#         MENU           #")
+    print("##########################")
     print("1. Upload a signature")
     print("2. Upload pdf file")
     print("3. Request a signature")
