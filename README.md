@@ -94,10 +94,10 @@ Número | Opción | Descripción
 10 | [Logout](#logout) | Cerrar sesión. |
 
 ### <a id="upload-signature">Upload a signature</a>
-
+![Upload a signature](/public/img/upload-signature.PNG "Esta es una imagen de muestra.")
 
 ### <a id="upload-pdf-file">Upload pdf file</a>
-
+![Upload pdf file](/public/img/upload-file.PNG "Esta es una imagen de muestra.")
 
 ### <a id="request-signature">Request a signature</a>
 
