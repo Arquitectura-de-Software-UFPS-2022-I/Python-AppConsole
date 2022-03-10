@@ -94,35 +94,59 @@ Número | Opción | Descripción
 10 | [Logout](#logout) | Cerrar sesión. |
 
 ### <a id="upload-signature">Upload a signature</a>
+
+Selecciona la opción 1 y ingresa la ruta de la imagen de la firma.
+
 ![Upload a signature](/public/img/upload-signature.PNG "Esta es una imagen de muestra.")
 
 ### <a id="upload-pdf-file">Upload pdf file</a>
+
+Selecciona la opción 2 y ingresa la ruta del documento PDF.
+
 ![Upload pdf file](/public/img/upload-file.PNG "Esta es una imagen de muestra.")
 
 ### <a id="request-signature">Request a signature</a>
 
+Selecciona la opción 3 y ingresa el id de la petición.
+
+![request-signature](/public/img/request-signature.PNG "Esta es una imagen de muestra.")
+
+ingresa el id del usuario, la pagina y la posición de la firma.
+
+![request-signature](/public/img/request-signature-II.PNG "Esta es una imagen de muestra.")
+
+
+para finalizar, una vez que se haya ingresado la información, presiona 0 para envíar la petición de firma a los usuarios registrados.
+
+![request-signature](/public/img/request-signature-III.PNG "Esta es una imagen de muestra.")
 
 ### <a id="sign-document">Sign a document</a>
 
+Selecciona la opción 4 y ingresa el id de la solicitud de firma.
 
 ### <a id="generate-pdf-file">Generate pdf file</a>
 
+Selecciona la opción 5 y genera un documento PDF con las firmas.
 
 ### <a id="list-signature-requests-approved">List all signature requests approved</a>
 
+Selecciona la opción 6 y lista todas las solicitudes de firma aprobadas.
 
 ### <a id="list-signature-requests-pending">List all signature requests pending</a>
 
+Selecciona la opción 7 y lista todas las solicitudes de firmas pendientes.
 
 ### <a id="list-pending-signature-requests">List all of my pending signature requests</a>
 
+Selecciona la opción 8 y lista todas mis solicitudes de firma pendientes.
 
 ### <a id="signature-history">Signature history</a>
 
+Selecciona la opción 9 y lista el historial de firmas.
 
 ### <a id="logout">Logout</a>
 
-
+Selecciona la opción 10 y cierra la sesión.
 
 ## Construido con 🛠️
 
