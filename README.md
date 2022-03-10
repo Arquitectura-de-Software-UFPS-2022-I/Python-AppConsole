@@ -22,17 +22,17 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 ## Requisitos de la Aplicación 📋
 
-Primero, instalar Python 3.6.5 o superior.
+Primero, instalar Python 3.9.0  o superior en tu maquina local.
 
 para Windows:
 
-[Python 3.6.5](https://www.python.org/downloads/)
+[Python 3.9.0](https://www.python.org/downloads/)
 
 
 para Linux:
 
 ```bash
-    $ sudo apt-get install python3.6
+    $ sudo apt-get install python3.9.0
 ```
 ## Instalación 🔧
 
